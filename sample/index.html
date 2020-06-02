@@ -149,8 +149,8 @@
 		
 	</style>
 	<body id="body">
-		<!-- 点我 -->
-		<button type="button"  class="btn-s" id="btns">点我</button>
+		<!-- 点击 -->
+		<button type="button"  class="btn-s" id="btns">点击</button>
 		
 		<div class="da-fade">
 			<div class="da-dialog da-middle" id="dialog">
@@ -202,8 +202,8 @@
 		callback: wancheng ,//用户自定义回调函数名称
 	}
 	function wancheng() {
-		// 用户保存后需要干的事
-		console.log("保存");
+		// 完成后，用户自己的逻辑
+		alert("保存");
 	}
 	btns.onclick = function() {
 		body.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
